@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
+  title: 'TataScript',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
@@ -20,15 +20,15 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://github.com/inyanji-lynnette/my-first-documentation',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
-
+  baseUrl: '/my-first-documentation/',
+  organizationName: 'inyanji-lynnette', // Usually your GitHub org/user name.
+  projectName: 'my-first-documentation', // Usually your repo name.
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  
 
   onBrokenLinks: 'throw',
 
@@ -50,7 +50,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/inyanji-lynnette/my-first-documentation/tree/main/docs/',
         },
         blog: {
           showReadingTime: true,
@@ -83,7 +83,7 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'My Site',
+        title: 'TataScript',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
